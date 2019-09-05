@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>corelib.h</itemPath>
+      <itemPath>courseplib.h</itemPath>
+      <itemPath>enrollmentplib.h</itemPath>
+      <itemPath>studentplib.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>P7.c</itemPath>
+      <itemPath>corelib.c</itemPath>
+      <itemPath>courseplib.c</itemPath>
+      <itemPath>enrollmentplib.c</itemPath>
+      <itemPath>p7.bat</itemPath>
+      <itemPath>studentplib.c</itemPath>
+      <itemPath>students.csv</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="P7.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="corelib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="corelib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="courseplib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="courseplib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="enrollmentplib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="enrollmentplib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="p7.bat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="studentplib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="studentplib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="students.csv" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="P7.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="corelib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="corelib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="courseplib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="courseplib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="enrollmentplib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="enrollmentplib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="p7.bat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="studentplib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="studentplib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="students.csv" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
